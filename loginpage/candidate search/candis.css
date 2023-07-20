@@ -1,0 +1,55 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../../images/candi.png');
+    color: beige;
+
+
+}
+.search-box{
+    width: 600px;
+    background: white ;
+    margin: 200px auto 0;
+    border-radius: 6px;
+}
+.row{
+    display: flex;
+    align-items: right;
+    padding: 10px 20px;
+}
+input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 1px;
+    outline: 1px;
+    font-size: 20px;
+    color: #f4433f;
+}
+button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+button .fa-solid {
+    width: 24px;
+    color: #555;
+    font-size: 25px;
+    cursor: pointer;
+}
+::placeholder{
+    color: black;
+}
+.result-box ul{
+    border-top: 1px solid black;
+    padding: 15px 10px;
+}
+.result-box ul li{
+    list-style: none;
+    color: black;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.result-box ul li:hover{
+    background: #5e76ae;
+}
